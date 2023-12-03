@@ -16,7 +16,7 @@
         {% endif %}
         <h2>{{ post.title }}</h2>
         <p>{{ post.year }}</p>
-        <p>{{ post.text|linebreaksbr }}</p>
+        <p>{{ post.text|linebreaksbr|safe }}</p>
     </article>
 {% endblock %}
 
