@@ -38,19 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp.apps.MyappConfig',
-    'ckeditor',
-    'ckeditor_uploader'
+
 ]
-
-CKEDITOR_JQUERY_URL = '//code.jquery.com/jquery-3.1.1.min.js'
-
-CKEDITOR_UPLOAD_PATH = 'uploads/'
-
-CKEDITOR_CONFIGS = {
-    'default': {
-        'toolbar': 'full',
-     },
-}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
